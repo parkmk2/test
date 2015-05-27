@@ -1,0 +1,24 @@
+﻿Build started 2015-05-27 오후 7:45:15.
+     1>Project "D:\education\gm\Shooting\Shooting.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Shooting.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\education\gm\Shooting\Debug\Shooting.exe" /INCREMENTAL:NO /NOLOGO d3d9.lib d3dx9.lib winmm.lib xinput.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Shooting.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\education\gm\Shooting\Debug\Shooting.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\education\gm\Shooting\Debug\Shooting.lib" /MACHINE:X86 Debug\game.obj
+         Debug\graphics.obj
+         Debug\input.obj
+         Debug\main.obj
+         Debug\shooting.obj
+     1>game.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/INCREMENTAL:NO' 사양으로 인해 무시됩니다.
+         Shooting.vcxproj -> D:\education\gm\Shooting\Debug\Shooting.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\education\gm\Shooting\Debug\Shooting.exe;#1" /manifest Debug\Shooting.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Shooting.unsuccessfulbuild".
+         Touching "Debug\Shooting.lastbuildstate".
+     1>Done Building Project "D:\education\gm\Shooting\Shooting.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.29
